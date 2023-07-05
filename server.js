@@ -7,7 +7,7 @@ const port = 3000;
 
 const limiter = rateLimit({
     max: 50,
-    windowMs: 30 * 30 * 50,
+    windowMs: 30 * 30 * 500,
     message: " To many  request from this IP, please try again in an minute."
 });
 
